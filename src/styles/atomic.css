@@ -93,3 +93,7 @@
 .underline {
   text-decoration: underline;
 }
+
+.gap-30 {
+  gap: 30px;
+}
