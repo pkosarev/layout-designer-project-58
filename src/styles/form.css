@@ -1,39 +1,39 @@
 .subscribe {
-    padding: 40px 70px;
+  padding: 40px 70px;
 
-    background-color: var(--primary-dark);
-  }
+  background-color: var(--primary-dark);
+}
 
-  .subscribe-text {
-    font-size: 36px;
-    font-family: 'Neucha', cursive;
-    line-height: 1.2;
-  }
+.subscribe-text {
+  font-size: 36px;
+  font-family: Neucha, cursive;
+  line-height: 1.2;
+}
 
-  .email-label {
-    display: inline-block;
+.email-label {
+  display: inline-block;
 
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 1.6;
-  }
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.6;
+}
 
-  .subscribe-condition {
-    font-size: 12px;
-    line-height: 1.6;
-  }
+.subscribe-condition {
+  font-size: 12px;
+  line-height: 1.6;
+}
 
-  .subscribe-input {
-    flex: 1;
-    height: 50px;
-    padding: 15px;
+.subscribe-input {
+  flex: 1;
+  height: 50px;
+  padding: 15px;
 
-    border: 1px solid #e3e3e3;
-  }
+  border: 1px solid #e3e3e3;
+}
 
-  .subscribe-input::placeholder {
-    font-size: 18px;
-    line-height: 1.6;
+.subscribe-input::placeholder {
+  font-size: 18px;
+  line-height: 1.6;
 
-    opacity: 0.2;
-  }
+  opacity: 0.2;
+}

@@ -1,25 +1,25 @@
 .btn {
-    display: block;
-    width: fit-content;
-    padding: 11px 24px;
+  display: block;
+  width: fit-content;
+  padding: 11px 24px;
 
-    background-color: var(--primary);
-    border: none;
-  }
+  background-color: var(--primary);
+  border: none;
+}
 
-  .btn:hover {
-    background-color: var(--dark-orange);
-    cursor: pointer;
-  }
+.btn:hover {
+  background-color: var(--dark-orange);
+  cursor: pointer;
+}
 
-  .btn-link {
-    margin-top: 40px;
+.btn-link {
+  margin-top: 40px;
 
-    color: var(--white);
-    font-weight: bold;
-  }
+  color: var(--white);
+  font-weight: bold;
+}
 
-  .btn-subscribe {
-    width: 70px;
-    height: 50px;
-  }
+.btn-subscribe {
+  width: 70px;
+  height: 50px;
+}

@@ -1,9 +1,9 @@
-@import './variables.css';
-@import './atomic.css';
-@import './default.css';
-@import './card.css';
-@import './btn.css';
-@import './form.css';
+@import "./variables.css";
+@import "./atomic.css";
+@import "./default.css";
+@import "./card.css";
+@import "./btn.css";
+@import "./form.css";
 
 /* Main styles */
 .container {
@@ -34,7 +34,7 @@
   width: 100%;
   height: 100%;
 
-  background-image: url('../images/background.png');
+  background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
@@ -94,7 +94,7 @@
 
   transform: translate(-50%, -50%);
 
-  content: url('../images/send.svg');
+  content: url("../images/send.svg");
 }
 
 .info-block {
