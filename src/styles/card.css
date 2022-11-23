@@ -1,0 +1,28 @@
+.card {
+    box-sizing: border-box;
+    padding: 24px;
+
+    background-color: var(--background-light);
+  }
+
+  .card-title {
+    color: var(--primary);
+  }
+
+  .card-number {
+    margin-bottom: 40px;
+
+    font-size: 64px;
+    font-family: 'Neucha', sans-serif;
+    line-height: 1;
+  }
+
+  .card:hover {
+    background-color: var(--primary);
+  }
+
+  .card:hover .card-title,
+  .card:hover .card-number,
+  .card:hover .card-body {
+    color: var(--white);
+  }

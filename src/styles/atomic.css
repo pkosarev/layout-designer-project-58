@@ -1,0 +1,91 @@
+.d-flex {
+    display: flex;
+  }
+
+  .wrap {
+    flex-wrap: wrap;
+  }
+
+  .justify-between {
+    justify-content: space-between;
+  }
+
+  .align-center {
+    align-items: center;
+  }
+
+  .black-color {
+    color: var(--black);
+  }
+
+  .primary-color {
+    color: var(--primary);
+  }
+
+  .white-color {
+    color: var(--white);
+  }
+
+  .secondary-color {
+    color: var(--secondary);
+  }
+
+  .bg-light {
+    background-color: var(--background-light);
+  }
+
+  .bg-dark {
+    background-color: var(--backround-dark);
+  }
+
+  .position-relative {
+    position: relative;
+  }
+
+  .position-absolute {
+    position: absolute;
+  }
+
+  .z-index-1 {
+    z-index: 1;
+  }
+
+  .z-index-2 {
+    z-index: 2;
+  }
+
+  .split-columns-2 > * {
+    width: calc(50% - 15px);
+  }
+
+  .split-columns-3 > * {
+    width: calc((100% - 60px) / 3);
+  }
+
+  .overflow-hidden {
+    overflow: hidden;
+  }
+
+  .shadow {
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .mb-8 {
+    margin-bottom: 8px;
+  }
+
+  .mb-20 {
+    margin-bottom: 20px;
+  }
+
+  .mb-30 {
+    margin-bottom: 30px;
+  }
+
+  .underline {
+    text-decoration: underline;
+  }
