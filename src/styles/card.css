@@ -10,7 +10,7 @@
 .card-number {
   margin-bottom: 40px;
 
-  font: 64px/1em "Neucha", cursive;
+  font: 64px/1em Neucha, cursive;
 }
 
 a.card:hover {
