@@ -1,0 +1,103 @@
+.d-flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.pos-relative {
+  position: relative;
+}
+
+.pos-absolute {
+  position: absolute;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.vert-align-middle {
+  /* убираем зазор между фреймом и блоком ниже */
+  vertical-align: middle;
+}
+
+.columns-container-2 > * {
+  width: calc(50% - 15px);
+}
+
+.columns-container-3 > * {
+  width: calc((33.3% - 20px));
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.font-neucha {
+  font-family: "Neucha", cursive;
+}
+
+.shadow {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.question-background::before {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  background: url("../../img/background.png") no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+
+  content: "";
+}
+
+/* --- Colors ----------------------------- */
+
+.black-color {
+  color: var(--black);
+}
+
+.primary-color {
+  color: var(--primary);
+}
+
+.primary-dark {
+  color: var(--primary-dark);
+}
+
+.white-color {
+  color: var(--white);
+}
+
+.secondary-color {
+  color: var(--secondary);
+}
+
+.bg-light {
+  background-color: var(--background-light);
+}
+
+.bg-primary-dark {
+  background-color: var(--primary-dark);
+}

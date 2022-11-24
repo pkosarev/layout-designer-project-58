@@ -1,0 +1,18 @@
+.header-title {
+  margin-bottom: 185px;
+}
+
+.btn-details {
+  margin-top: 50px;
+}
+
+.header-img {
+  top: 55px;
+  right: -270px;
+
+  width: 1080px;
+  height: 525px;
+
+  background: url("../img/main.png") no-repeat;
+  background-size: cover;
+}

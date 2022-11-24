@@ -1,0 +1,19 @@
+.btn {
+  display: block;
+  width: fit-content;
+  padding: 12px 24px;
+  border: none;
+
+  color: var(--white);
+  font-weight: bold;
+  text-transform: uppercase;
+
+  background-color: var(--primary);
+
+  outline: none;
+}
+
+.btn:hover {
+  background-color: var(--dark-orange);
+  cursor: pointer;
+}

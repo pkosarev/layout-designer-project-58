@@ -1,111 +1,42 @@
-@import "./variables.css";
-@import "./atomic.css";
-@import "./default.css";
-@import "./card.css";
-@import "./btn.css";
-@import "./form.css";
+/** CSS STYLE **/
 
-/* Main styles */
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 100px 0;
+@import "basic/default.css";
+@import "basic/colors.css";
+@import "basic/atomic.css";
+@import "button.css";
+@import "card.css";
+@import "header.css";
+@import "biase-block.css";
+@import "subscribe.css";
+
+/* --- video section --- */
+
+.video-section .video {
+  margin-bottom: -100px;
 }
 
-.header-title {
-  margin-bottom: 200px;
+.video-section .container {
+  padding-bottom: 0;
 }
 
-.header-img {
-  top: 55px;
-  right: -270px;
-
-  height: 525px;
+.navigation .container {
+  padding-top: 200px;
 }
 
-.bg-symbols {
-  position: relative;
-}
+/* --- navigation section --- */
 
-.bg-symbols::before {
-  position: absolute;
-  z-index: 0;
-
-  width: 100%;
-  height: 100%;
-
-  background-image: url("../images/background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.1;
-
-  content: "";
-}
-
-.video-section {
-  height: 800px;
-}
-
-.video {
-  right: 0;
-  left: 0;
-
-  margin: auto;
-}
-
-.navigation-section {
-  padding-top: 100px;
-
-  background-color: var(--primary-dark);
-}
-
-.nav > * {
-  margin-bottom: 20px;
-}
-
-.nav-title {
+.navigation .nav-title {
   font-size: 52px;
-  line-height: 1.2em;
 }
 
-.separator {
-  margin: 0 0 20px;
-  padding: 4px 8px;
+/* --- copyright block --- */
 
-  font-weight: bold;
+.copyright-block div {
   font-size: 14px;
-
-  text-transform: uppercase;
+  line-height: 22px;
 }
 
-.send-icon {
-  position: relative;
-}
-
-.send-icon::before {
-  position: absolute;
-
-  top: 50%;
-  left: 50%;
-
-  transform: translate(-50%, -50%);
-
-  content: url("../images/send.svg");
-}
-
-.info-block {
-  margin-top: 60px;
-  margin-bottom: -16px;
-
-  text-align: center;
-}
-
-.info-block p {
-  margin-bottom: 16px;
-}
-
-.info-block a {
+.copyright-block a {
   color: var(--blue);
-
   text-decoration: underline;
 }
